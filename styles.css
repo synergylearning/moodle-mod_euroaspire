@@ -1,0 +1,217 @@
+.path-mod-euroaspire .singlebutton {
+    display: inline-block;
+}
+
+.path-mod-euroaspire-admin #region-main .smallicon {
+    width: 20px;
+    height: 20px;
+}
+
+.path-mod-euroaspire .notification {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    max-height: 200px;
+}
+.path-mod-euroaspire .notifysuccess {
+    background-color: #e0ffdc;
+    border: 1px solid #1e7100;
+    color: #1e7100;
+}
+.path-mod-euroaspire .notifyproblem {
+    background-color: #ffdede;
+    border: 1px solid #700000;
+    color: #700000;
+}
+
+.path-mod-euroaspire .fadeout {
+    transition: opacity 2s;
+    opacity: 0;
+}
+.path-mod-euroaspire .shrink {
+    transition: max-height 0.5s;
+    overflow: hidden;
+    max-height: 0;
+}
+.path-mod-euroaspire .hide {
+    display: none;
+}
+
+.path-mod-euroaspire .singlebutton.highlightbutton input[type="submit"] {
+    box-shadow:  0 0 5px 1px #92dd8d;
+}
+
+.path-mod-euroaspire .urlerror {
+    color: #700000;
+}
+
+.path-mod-euroaspire .spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background-image: url([[pix:core|i/ajaxloader]]);
+}
+
+.path-mod-euroaspire .removemap,
+.path-mod-euroaspire .addmap,
+.path-mod-euroaspire .gradepass,
+.path-mod-euroaspire .gradefail {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.path-mod-euroaspire .jsinit .removemap,
+.path-mod-euroaspire .jsinit .addmap,
+.path-mod-euroaspire .jsinit .gradepass,
+.path-mod-euroaspire .jsinit .gradefail {
+    cursor: pointer;
+}
+
+.path-mod-euroaspire .jsinit .addmap {
+    background-image: url([[pix:mod_euroaspire|add]]);
+}
+.path-mod-euroaspire .jsinit .hover .addmap {
+    background-image: url([[pix:mod_euroaspire|addhover]]);
+}
+.path-mod-euroaspire .jsinit .removemap {
+    background-image: url([[pix:mod_euroaspire|remove]]);
+}
+.path-mod-euroaspire .jsinit .hover .removemap {
+    background-image: url([[pix:mod_euroaspire|removehover]]);
+}
+
+.path-mod-euroaspire .gradepass {
+    background-image: url([[pix:mod_euroaspire|pass]]);
+}
+.path-mod-euroaspire .hover .gradepass {
+    background-image: url([[pix:mod_euroaspire|pass_hover]]);
+}
+.path-mod-euroaspire .gradepass.selected,
+.path-mod-euroaspire .jsinit .gradepass:hover {
+    background-image: url([[pix:mod_euroaspire|pass_selected]]);
+}
+.path-mod-euroaspire .gradefail {
+    background-image: url([[pix:mod_euroaspire|fail]]);
+}
+.path-mod-euroaspire .hover .gradefail {
+    background-image: url([[pix:mod_euroaspire|fail_hover]]);
+}
+.path-mod-euroaspire .gradefail.selected,
+.path-mod-euroaspire .jsinit .gradefail:hover {
+    background-image: url([[pix:mod_euroaspire|fail_selected]]);
+}
+
+.path-mod-euroaspire #gradeitemform input[type="text"] {
+    color: #888;
+    border-color: #eee;
+    background-color: transparent;
+}
+.path-mod-euroaspire #gradeitemform .hover input[type="text"],
+.path-mod-euroaspire #gradeitemform input[type="text"]:focus {
+    color: #555;
+    border-color: #ccc;
+    background-color: #fff;
+}
+
+.path-mod-euroaspire .itemselect {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.path-mod-euroaspire .itemselect .removemap {
+    display: none;
+}
+.path-mod-euroaspire .itemselect .selected {
+    background-color: #90bb98;
+}
+.path-mod-euroaspire ul.itemselect,
+.path-mod-euroaspire ul.itemselect li,
+.path-mod-euroaspire ul.mappeditems,
+.path-mod-euroaspire ul.mappeditems li {
+    list-style: none;
+    margin: 0;
+}
+.path-mod-euroaspire .itemselect .selectitem {
+    margin-right: 10px;
+}
+.path-mod-euroaspire #mapitemform td.selected {
+    background-color: #90bb98;
+}
+.path-mod-euroaspire .needsgrading {
+    font-weight: bold;
+}
+
+.path-mod-euroaspire .usergrade {
+    font-size: 125%;
+    font-weight: bold;
+}
+.path-mod-euroaspire .usercomment {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.path-mod-euroaspire .generaltable .usercomment {
+    width: inherit;
+}
+.path-mod-euroaspire #id_exportcomments {
+    margin-left: 60px;
+}
+.path-mod-euroaspire .itemselect .mapped {
+    background-color: #eee;
+}
+
+/* table styles: attila vago */
+
+.path-mod-euroaspire table.generaltable {
+    border: solid 5px #0098a5;
+    border-spacing: 2px;
+    border-collapse: separate;
+    background-color: white;
+}
+
+.path-mod-euroaspire .generaltable th.header {
+    font-weight: 400;
+}
+
+.path-mod-euroaspire .generaltable th.header.c0, td.cell.c0 {
+    background: #9cd1d9 !important;
+    text-transform: uppercase;
+}
+
+.path-mod-euroaspire .generaltable th.header.c1 {
+    background: #a46b9c;
+}
+
+.path-mod-euroaspire .generaltable th.header.c2 {
+    background: #fbb473;
+}
+
+.path-mod-euroaspire .generaltable th.header.c3 {
+    background: #7187c1;
+}
+
+.path-mod-euroaspire .generaltable td.cell {
+    text-transform: capitalize;
+}
+
+.path-mod-euroaspire .generaltable td.cell.c1 {
+    background: #dcc5da !important;
+}
+
+.path-mod-euroaspire .generaltable td.cell.c2 {
+    background: #fee3c9 !important;
+}
+
+.path-mod-euroaspire td.cell.c3 {
+    background: #c8cee7 !important;
+}
+
+
+@media only screen and (max-width : 600px) {
+   .path-mod-euroaspire section#region-main {
+        overflow-x: scroll;
+    }
+}

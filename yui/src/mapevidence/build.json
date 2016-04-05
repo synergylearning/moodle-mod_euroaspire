@@ -1,0 +1,10 @@
+{
+    "name": "moodle-mod_euroaspire-mapevidence",
+    "builds": {
+        "moodle-mod_euroaspire-mapevidence": {
+            "jsfiles": [
+                "mapevidence.js"
+            ]
+        }
+    }
+}

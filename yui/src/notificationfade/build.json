@@ -1,0 +1,10 @@
+{
+    "name": "moodle-mod_euroaspire-notificationfade",
+    "builds": {
+        "moodle-mod_euroaspire-notificationfade": {
+            "jsfiles": [
+                "notificationfade.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "moodle-mod_euroaspire-addevidence": {
+        "requires": [
+            "node",
+            "event-focus",
+            "io-base"
+        ]
+    }
+}

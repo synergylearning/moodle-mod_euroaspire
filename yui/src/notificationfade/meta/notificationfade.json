@@ -1,0 +1,7 @@
+{
+    "moodle-mod_euroaspire-notificationfade": {
+        "requires": [
+            "node"
+        ]
+    }
+}

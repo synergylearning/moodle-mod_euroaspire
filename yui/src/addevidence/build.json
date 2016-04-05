@@ -1,0 +1,10 @@
+{
+    "name": "moodle-mod_euroaspire-addevidence",
+    "builds": {
+        "moodle-mod_euroaspire-addevidence": {
+            "jsfiles": [
+                "addevidence.js"
+            ]
+        }
+    }
+}

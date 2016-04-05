@@ -1,0 +1,10 @@
+{
+    "moodle-mod_euroaspire-grade": {
+        "requires": [
+            "node",
+            "event-mouseenter",
+            "event-valuechange",
+            "moodle-core-notification-dialogue"
+        ]
+    }
+}
